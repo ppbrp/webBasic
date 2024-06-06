@@ -1,0 +1,329 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(./font/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./font/static/Poppins-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.pink {
+    background-color: #f7adc3;
+    height: 2.5rem;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: none; 
+}
+
+.nav-line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(190, 190, 190);
+    margin: 6px 0; 
+}
+
+.menu-h {
+    max-width: 1.063rem;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+ul {
+    padding: 0; 
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.5rem JosefinSans;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 190px;
+}
+
+.col-1 {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.col-2 {
+    margin-top: 55px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.grande, .Bangkapi, .pinklao, .Megabangna, .seacon, .westgate, .future, .thapra {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.text {
+    margin-left: 30px;
+}
+
+.imges img{
+    width: 6.438rem;
+    height: 6.438rem;
+    border-radius: 50%;
+    padding-left: 5px;
+}
+
+.detail span {
+    padding-bottom: 5px;
+    border-bottom: 4px solid black;
+}
+
+#map {
+    vertical-align: middle;
+    width: 1.625rem;
+    height: 1.625rem;
+}
+
+.topic {
+    font: 2.063rem JosefinSans;
+    font-weight: bold;
+    color: #F3649B;
+    margin: 0;
+}
+
+.detail {
+    margin: 0;
+    font: 1rem Poppins;
+    color: black;
+    font-weight: bold;
+}
+
+.tel {
+    margin: 0;
+    font: 1rem Poppins;
+    color: #7F7F7F;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.tel:hover {
+    color: black;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1170px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px; 
+    }
+
+    .logo img {
+        max-width: 13.75rem;
+    }
+    
+    .nav {
+        max-width: 800px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: none; 
+    }
+
+    
+    .menu-h {
+        max-width: 1.063rem;
+        padding-left: 10px;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-bottom: 190px;
+    }
+
+    .col-2 {
+        margin-top: 55px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:890px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width: 10.625rem;
+    }
+    
+    .nav {
+        max-width: 600px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block; 
+    }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
+    
+    .menu{
+        display: none;
+    }
+    
+    .container {
+        max-width: 600px;
+        margin: 0px auto;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 90px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .logo img {
+        max-width: 10.625rem;
+    }
+    
+    .nav {
+        max-width: 400px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block; 
+    }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
+
+    
+    .menu{
+        display: none;
+    }
+    
+    .container {
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 90px;
+    }
+
+    .col-2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+    }
+}

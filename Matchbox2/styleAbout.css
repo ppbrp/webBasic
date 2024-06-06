@@ -1,0 +1,456 @@
+@font-face {
+    font-family: JosefinSans;
+    src: url(./font/static/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(./font/static/Poppins-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.pink {
+    background-color: #f7adc3;
+    height: 2.5rem;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin: 30px 0px;
+    width: 100%;
+}
+
+.nav-menu {
+    display: none; 
+}
+
+.nav-line {
+    width: 30px;
+    height: 3px;
+    background-color: rgb(190, 190, 190);
+    margin: 6px 0; 
+}
+
+.menu-h {
+    max-width: 1.063rem;
+    padding-left: 10px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0px auto;
+}
+
+ul {
+    padding: 0; 
+}
+
+.menu {
+    margin-top: 40px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+    padding-bottom: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font: 1.5rem JosefinSans;
+    font-weight: bold;
+}
+
+.content {
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-img img{
+    max-width: 29.375rem;
+}
+
+.txt {
+    font: 3.75rem JosefinSans;
+    font-weight: 600;
+    color: #F3649B;
+    margin-top: 0;
+}
+
+.txt2 {
+    font: 1.5rem Poppins;
+    font-weight: bold;
+    color: black;
+}
+
+.txt span {
+    padding-bottom: 10px;
+    border-bottom: 5px solid #F3649B;
+}
+
+.heart img {
+    max-width: 3rem;
+    padding: 10px 15px 0px 0px;
+}
+
+.heart {
+    display: flex;
+    justify-content: right;
+    margin-top: 230px;
+}
+
+.content-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content-body-img img{
+    float: left;
+    max-width: 13.646rem;
+    padding-right: 1rem;
+}
+
+.content-body-txt p{
+    text-align: right;
+    font: 4.875rem JosefinSans;
+    font-weight: 600;
+    color: #F3649B;
+    margin-top: 0;
+}
+
+.company {
+    margin-bottom: 90px;
+}
+
+
+.img5 {
+    max-height: 96.724rem;
+    width: auto;
+    margin-bottom: 150px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+footer img {
+    padding-right: 15px;
+}
+
+@media screen and (max-width:1170px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        display: flex;
+        margin-top: 30px; 
+    }
+
+    .logo img {
+        max-width: 13.75rem;
+    }
+    
+    .nav {
+        max-width: 800px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block; 
+    }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
+    
+    .menu-h {
+        max-width: 1.063rem;
+        padding-left: 10px;
+    }
+    
+    .container {
+        max-width: 800px;
+        margin: 0px auto;
+    }
+    
+    ul {
+        padding: 0; 
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .content {
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .content-head {
+        margin-left: 50px;
+    }
+    
+    .content-img img{
+        max-width: 17.656rem;
+    }
+    
+    .txt {
+        font: 2.25rem JosefinSans;
+        font-weight: 600;
+        color: #F3649B;
+        margin-top: 0;
+    }
+    
+    .txt2 {
+        font: 1.25rem Poppins;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .txt span {
+        padding-bottom: 10px;
+        border-bottom: 5px solid #F3649B;
+    }
+    
+    .heart img {
+        max-width: 1.875rem;
+        padding: 10px 15px 0px 0px;
+    }
+    
+    .heart {
+        display: flex;
+        justify-content: right;
+        margin-top: 50px;
+    }
+    
+    .content-body {
+        max-width: 800px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+    
+    .content-body-img img{
+        float: left;
+        max-width: 8.177rem;
+        padding-right: 1rem;
+    }
+    
+    .content-body-txt p{
+        text-align: right;
+        font: 2.875rem JosefinSans;
+        font-weight: 600;
+        color: #F3649B;
+        margin-top: 0;
+    }
+    
+    .company {
+        max-width: 800px;
+        margin-left: 50px;
+    }
+    
+    
+    .img5 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        max-width: 45rem;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        z-index: 9;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .pink {
+        background-color: #f7adc3;
+        height: 0.25rem;
+        width: 100%;
+    }
+    
+    .logo {
+        text-align: left;
+        margin: 30px 0px;
+    }
+
+    .logo img {
+        max-width: 10.625rem;
+    }
+    
+    .nav {
+        max-width: 400px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-menu {
+        display: block; 
+    }
+    
+    .nav-line {
+        width: 30px;
+        height: 3px;
+        background-color: rgb(190, 190, 190);
+        margin: 6px 0; 
+    }
+
+    
+    .menu-h {
+        max-width: 1.063rem;
+        padding-left: 10px;
+    }
+    
+    .container {
+        max-width: 400px;
+        margin: 0px auto;
+    }
+    
+    ul {
+        padding: 0; 
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        margin-top: 40px;
+    }
+    
+    .content-head {
+        margin-left: 0px;
+    }
+
+    .content-head-txt {
+        display: block;
+        max-width: 400px;
+        margin-top: 20px;
+    }
+
+    .content-img img{
+        max-width: 25rem;
+    }
+    
+    .txt {
+        font: 2.125rem JosefinSans;
+        font-weight: 600;
+        color: #F3649B;
+        margin-top: 0;
+    }
+    
+    .txt2 {
+        font: 1.25rem Poppins;
+        font-weight: bold;
+        color: black;
+    }
+    
+    .txt span {
+        padding-bottom: 10px;
+        border-bottom: 5px solid #F3649B;
+    }
+    
+    .heart img {
+        max-width: 1.875rem;
+        padding: 10px 15px 0px 0px;
+    }
+    
+    .heart {
+        display: flex;
+        justify-content: left;
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    
+    .content-body {
+        max-width: 400px;
+        display: list-item;
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    
+    .content-body-img img{
+        float: left;
+        max-width: 25rem;
+        padding-bottom: 1rem;
+    }
+    
+    .content-body-txt p{
+        text-align: right;
+        font: 3.75rem JosefinSans;
+        font-weight: 600;
+        color: #F3649B;
+        margin-top: 0;
+    }
+    
+    .company {
+        max-width: 800px;
+        text-align: left;
+    }
+    
+    
+    .img5 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        max-width: 25rem;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        z-index: 9;
+        padding-bottom: 20px;
+        text-align: center;
+        width: 100%;
+    }
+}
